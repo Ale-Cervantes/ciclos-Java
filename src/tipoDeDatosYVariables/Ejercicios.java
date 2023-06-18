@@ -46,12 +46,31 @@ public class Ejercicios {
 		dias = dias + 2;
 		System.out.println("dias" + dias);
 		
+		//Operadores de incremento y decremento
 		
-		
-	
-		
-		
+				int p = 0;
+				p++;
+				p++;
+				p++;
+				System.out.println(p);
+				
+				/*Operadores relacionales
+				 * == compara si un operando es igual a otro
+				 * != diferente a 
+				 * > mayor que
+				 * < menor que
+				 * >= mayor o igual que 
+				 * <= menor o igual que
+				 */
+				
+				int a = 10;
+				int b = 15;
+				boolean resultado;
+				resultado = a != b;
+				System.out.println("resultado de la operación: " + resultado);
+
+			}
+
 
 	}
 
-}
